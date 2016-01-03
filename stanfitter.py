@@ -38,7 +38,7 @@ else:
 __all__ = ['StanFitter']
 
 
-# ImmutableAttrDict ased on discussion from:
+# ImmutableAttrDict based on discussion from:
 # http://stackoverflow.com/questions/9997176/immutable-dictionary-only-use-as-a-key-for-another-dictionary
 
 class ImmutableAttrDict(Mapping):
